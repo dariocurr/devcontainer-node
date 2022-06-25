@@ -1,4 +1,4 @@
-# Try Out Development Containers: Java
+# Try Out Development Containers: Node
 
 A **development container**, from now on _dev container_, is a running
 [Docker](https://www.docker.com) container with a well-defined tool/runtime
@@ -9,7 +9,7 @@ stack and its prerequisites.
 > **[Visual Studio Code Remote - Containers](https://aka.ms/vscode-remote/containers)**
 
 This is a template project that using a _dev container_, automatically
-configures a **Java** development environment with few easy steps.
+configures a **Node** development environment with few easy steps.
 
 > Check out others
 > [_dev container_ template projects](https://github.com/dariocurr?tab=repositories&q=devcontainer)

@@ -1,6 +1,4 @@
-# for format details, see https://docs.github.com/actions
-
-name: Validate Dockerfile
+name: validate Dockerfile
 
 on:
   push:
@@ -17,7 +15,7 @@ on:
 
 jobs:
   validate_dockerfile:
-    uses: dariocurr/actions/.github/workflows/validate_dockerfile.yml@main
+    uses: dariocurr/.github/.github/workflows/validate_dockerfile.yml@main
     with:
       dockerfile: ./.devcontainer/Dockerfile
       from: dev
